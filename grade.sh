@@ -10,3 +10,5 @@ fi
 
 javac -cp lib/*:. GradingTests.java MarkdownParse.java
 java -cp lib/*:. org.junit.runner.JUnitCore GradingTests
+cd ..
+rm -rf markdown-parse
